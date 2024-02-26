@@ -1,0 +1,106 @@
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    div.container{
+        border: 5px solid black;
+        width: 80%;
+        margin: 0 auto;
+    }
+    header{
+        background-color: aquamarine;
+    }
+    nav{
+        background-color: darkorange;
+    }
+    ul{
+        text-align: center;
+    }
+    li{
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 15%;
+        border: 2px solid black;
+        line-height: 3em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-variant: small-caps;
+    }
+    a{
+        color: lightyellow;
+        text-decoration: none;
+        display: block;
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.hero{
+        border: 3px solid darkblue;
+        width: 55%;
+    }
+    main aside{
+        width: 40%;
+        position: relative;
+    }
+    main aside div ul li{
+        position: absolute;
+        background-color: orange;
+        top: 40%;
+    }
+    div.hero img{
+        width: 100%;
+    }
+    div.left, div.middle, div.right{
+        border: 3px solid darkblue;
+        width: 40%;
+        position: relative;
+    }
+    section img{
+        width: 100%;
+    }
+    section div ul li{
+        position: absolute;
+        bottom: 5px;
+        right: 5%;
+        background-color: orange;
+        width: 200px;
+    }
+    div.hero-placeholder{
+        border: 3px solid lightcyan;
+        width: 15%;
+    }
+    div.hero-placeholder img{
+        width: 100%;
+    }
+    .hero-placeholder aside{
+        width: 40%;
+        position: relative;
+    }
+    .hero-placeholder aside div ul li{
+        position: absolute;
+        background-color: orange;
+        top: 40%;
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+    }
+    #Learn_More_1, #Learn_More_2, #Learn_More_3{
+        border: 3px solid yellow;
+        width: 40%;
+        position: relative;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        border: 3px solid darkmagenta;
+    }
+    footer div ul li{
+        position: relative;
+        bottom: 5px;
+        left: 10%;
+        background-color: green;
+        width: 200px;
+    }
