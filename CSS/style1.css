@@ -77,6 +77,8 @@
     .hero-placeholder aside{
         width: 40%;
         position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-variant: small-caps;
     }
     .hero-placeholder aside div ul li{
         position: absolute;
@@ -89,8 +91,13 @@
     }
     #Learn_More_1, #Learn_More_2, #Learn_More_3{
         border: 3px solid yellow;
-        width: 40%;
-        position: relative;
+        width: 30%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+        line-height: 5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-variant: small-caps;
     }
     footer{
         display: flex;
